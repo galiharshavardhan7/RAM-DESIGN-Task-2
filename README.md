@@ -1,10 +1,15 @@
 # RAM-DESIGN-Task-2
 
 **Company** :CODETECH IT SOLUTIONS
+
 **Name**    :Gali HarshaVardhan Reddy
+
 **InternId**:  CT06MKS
+
 **Domain**  :VLSI
+
 **BatchDuration**: Jan 15-th to -FEB 15th  4 weeks
+
 **Mentor Name**:Neela Santhosh
 
 **Description**
@@ -14,14 +19,17 @@ Synchronous Operation: The RAM module operates synchronously with a clock signal
 Read and Write Operations: The module supports both read and write operations, allowing data to be stored and retrieved from the RAM.
 Address Bus: The module has an address bus that selects the specific location in the RAM where data will be read or written.
 Data Bus: The module has a data bus that carries the data being written to or read from the RAM.
+
 **Features**
 Synchronous Operation: The RAM module operates synchronously with a clock signal, ensuring that all data transactions occur at the rising edge of the clock.
 Read and Write Operations: The module supports both read and write operations, allowing data to be stored and retrieved from the RAM.
 Address Bus: The module has an address bus that selects the specific location in the RAM where data will be read or written.
 Data Bus: The module has a data bus that carries the data being written to or read from the RAM.
+
 **Operation**
 Write Operation: When the write enable input is high, the module performs a write operation. The data on the data bus input is written to the location in the RAM array specified by the address bus input. The write operation occurs at the rising edge of the clock signal.
 Read Operation: When the write enable input is low, the module performs a read operation. The data stored in the location in the RAM array specified by the address bus input is output on the data bus output. The read operation occurs at the rising edge of the clock signal.
+
 **Timing Diagram**
 Here is a timing diagram illustrating the synchronous operation of the RAM module:
 Time	Clock	Write Enable	Address Bus	Data Bus
@@ -29,6 +37,7 @@ t1	0	0	A	D1
 t2	1	0	A	D1
 t3	0	1	B	D2
 t4	1	1	B	D2
+
 **In this timing diagram:**
 At time t1, the clock is low, and the write enable is low, indicating a read operation.
 At time t2, the clock rises, and the data on the data bus is output from the RAM.
