@@ -35,4 +35,4 @@ At time t3, the clock is low, and the write enable is high, indicating a write o
 At time t4, the clock rises, and the data on the data bus is written to the RAM.
 
 ##Output
-
+![Image](https://github.com/user-attachments/assets/d435ceee-ebe8-4d11-a6e6-ace49290e2c4)
