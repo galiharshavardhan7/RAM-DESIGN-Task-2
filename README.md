@@ -6,6 +6,7 @@
 **Domain**  :VLSI
 **BatchDuration**: Jan 15-th to -FEB 15th  4 weeks
 **Mentor Name**:Neela Santhosh
+
 **Description**
 The Synchronous RAM Module is a digital circuit designed to store and retrieve data synchronously with a clock signal. It provides a basic implementation of a Random Access Memory (RAM) that can be used in a variety of digital systems.
 **Features**
