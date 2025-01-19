@@ -43,6 +43,7 @@ At time t1, the clock is low, and the write enable is low, indicating a read ope
 At time t2, the clock rises, and the data on the data bus is output from the RAM.
 At time t3, the clock is low, and the write enable is high, indicating a write operation.
 At time t4, the clock rises, and the data on the data bus is written to the RAM.
+Examples of arithmetic operations are addition, subtraction, multiplication, and division. Examples of logic operations are comparisons of values such as NOT, AND, and OR. All information in a computer is stored and manipulated in the form of binary numbers, i.e. 0 and 1
 
 ##Output
 ![Image](https://github.com/user-attachments/assets/d435ceee-ebe8-4d11-a6e6-ace49290e2c4)
